@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>MegaMart</h1>
+  <h2>Your Complete Shopping Destination </h2>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Cat</a></li>
+    <li><a href="">Books</a></li>
+    <li><a href="">Watch</a></li>
+    <li><a href="">Headphone</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+  <h1>Product Search</h1>
+  <label for="Search">
+    <search></search>
+  </label>
+  <form>
+    <input required placeholder="product search" type="search" id="search" name="search">
+    <button>search</button>
+  </form>
+  <h1>featured products</h1>
+  <table border="1">
+    <tr>
+      <th>product</th>
+      <th>description</th>
+      <th>price</th>
+      <th>stock</th>
+      <th>action</th>
+    </tr>
+    <tr>
+      <td><img src="https://m.media-amazon.com/images/I/71MzTsi7UjL._AC_UY218_.jpg" width="100" height="100" alt="">
+        Wirdess Headphones></td>
+      <td>Headphone ipsum dolor sit amet
+        <ol>
+          <li>40mm</li>
+          <li>30 boll</li>
+          <li>IPX4 WATERPROOF</li>
+        </ul>
+      </td>
+      <td><del>$25738</del><br>
+        <u>$19999</u>
+      </td>
+      <td><b>in Stock</b></td>
+      <td><button>Add to Cart</button></td>
+    </tr>
+    <tr>
+      <td> <img src="https://m.media-amazon.com/images/I/71+a0f-0XmL._AC_UL320_.jpg" width="100px" height="100px"
+          alt="">smart watch protd </td>
+      <td>watch ipsum dolor sit amet
+        <ol>
+          <li>prefect</li>
+          <li>time</li>
+          <li>for</li>
+        </ol>
+      </td>
+      <td>$89.99</td>
+      <td>Low Stock</td>
+      <td><button>Add to cart</button></td>\
+    </tr>
+  </table>
+  <h2>Create New account</h2>
+  <form>
+    <fieldset>
+      <legend>personal information</legend>
+      <label for="first name">First Name</label>
+      <input required id="first name" placeholder="first name" type="First Name">
+      <label for="Last name">Last Name</label>
+      <input required id="Last name" placeholder="Last name" type="Last Name">
+      <label for="Date of Birth">Date of Birth</label>
+      <input type="date" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth" required>
+      <label for="male">Gender</label>
+      <input type="radio" name="male" id="male" required> male
+      <label for="female"></label>
+      <input type="radio" name="male" id="female" required> female
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>Account Details</legend>
+      <label for="email">email</label>
+      <input placeholder="email" type="email" name="email" id="email" required>
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" required placeholder="password">
+      <label for="phone number">phone number</label>
+      <input type="phone number" id="phone number" name="phone number" required placeholder="phone number">
+    </fieldset>
+  </form>
+  <form >
+  <fieldset>
+    <legend>Shipping AuKnees</legend>
+    <label for="Address">Address</label>
+    <textarea required placeholder="Addrees" name="Address" id="Address"></textarea>
+    <label for="country">country</label>
+    <select name="country" id="">country
+      <option value="pakistan">pakistan</option>
+      <option value="UAE">UAE</option>
+    </select>
+    <label for="ZIP Code">ZIP Code</label>
+    <input required type="ZIP Code" id="ZIP Code">
+  </fieldset>
+  <button>Create Account</button>
+  <button>Clear Form</button>
+  </form><br>
+  <h1>Product Comperision</h1>
+  <table border="2">
+    <tr>
+      <th>Future</th>
+      <th>Bask Model</th>
+      <th>Pre Model</th>
+      <th>Premioms Model</th>
+    </tr>
+    <tr>
+      <td><b>Batter Life</b></td>
+      <td>8 hours</td>
+      <td>12 hours</td>
+      <td>24 hours</td>
+    </tr>
+    <tr>
+      <td><b>Water Headstance</b></td>
+      <td>IPX4</td>
+      <td>IPX3</td>
+      <td>IPX8</td>
+    </tr>
+    <tr>
+      <td><b>Warranty</b></td>
+      <td>1 year</td>
+      <td colspan="2">2 year</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>*ALL Price inchide</b></td>
+    </tr>
+  </table>
+  <h1>Checkout Process</h1>
+  <form><fieldset>
+<legend>personl information</legend>
+<label for="cart type">cart type</label>
+<input type="radio" name="cart type" id="cart type"required>
+<label for="Vsa">Vsa</label>
+<input type="radio" name="cart type" id="Vsa"required>
+<label for="MegaMart">MegaMart</label>
+<input type="radio" name="cart type" id="MegaMart" required>
+<label for="Account Expire">Account Expire</label>
+<input type="radio" name="cart type" id="Account Expire" required><br>
+<label for="cart number">cart number</label>
+<input type="text" id="cart number"required placeholder="caet number">  
+<label for="Expire date">Expire date</label>
+<input type="date" name="Expire date" id="Expire date" required>
+  </fieldset> 
+  </form>
+  <fieldset> 
+    <legend>date sunner</legend>
+      <table  border="2">
+        <tr>
+          <th>Itam</th>
+          <th>qua</th>
+          <th>price</th>
+        </tr>
+        <tr>
+          <td>Headphone</td>
+          <td>2</td>
+          <td>$5453</td>
+        </tr>
+        <tr>
+          <td>Shopping</td>
+          <td>1</td>
+          <td>$5654</td>
+        </tr>
+        <tr> 
+          <td colspan="2">total</td>
+       
+          <td>$1155</td>
+        </tr>
+      </table>
+    </legend>
+  </fieldset><br>
+  <button>video</button>
+  <h1>Product Video</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aG5LMJeZGX8?si=nPFL8QOf3TiFXSSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h2>content us</h2>
+  <a href="ziyadaftab1@gmail.com">Email us</a><br>
+  <a href="">03282681421</a>
+  <address>malir karachi dawoood got</address>
+  <h3>home is our lacation</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d115818.67167140843!2d67.07390366386505!3d24.886603815387158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smalir%2015%20dawood%20jamia%20masjid%20aqsa!5e0!3m2!1sen!2s!4v1747987534763!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+</body>
+</html>
